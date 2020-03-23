@@ -1,0 +1,18 @@
+Liquid V1 : 03 - HTLiquidSpriteSheet.cs parameters guide
+==================================================
+
+You will find in the order :
+
+Sprite sheet properties :
+--------------------------
+uvAnimationTile X : The number of sprites in X on the texture (8 by default => ready to use with our materials)
+
+uvAnimationTile Y : The number of sprites in Y on the texture (8 by default => ready to use with our materials)
+
+spriteCount : The real number of sprites on the sprite sheet (64 by default => ready to use with our materials)
+
+Frames per second : Playing speed (26 by default => ready to use with our materials)
+
+textureSize : The scale size of the texture ( 1,1 by default)
+
+scrollSpeed : The speed of the texture scroll in x,y (0,0 by default)

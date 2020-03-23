@@ -1,0 +1,12 @@
+Liquid 1 : How to create an effect
+=========================================
+
+Simple Solution :
+-----------------
+1 - Drag and drop a material on an object of your choice
+2 - Drag and drop the HTLiquidSpriteSheet.cs on this object
+3 - Setup the parameters (look at 03 - HTLiquidSpriteSheet.cs parameters)
+
+
+
+

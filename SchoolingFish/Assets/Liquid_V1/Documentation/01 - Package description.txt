@@ -1,0 +1,42 @@
+Liquid  v1 : Package description
+=====================================
+
+
+Under Liquid Effect Volume 1 , you will find 19 high quality various types of 64 images sprites sheet to do liquid effects.
+ Perfect to create mobile or tablet lightwerk effects. 
+
+- 3 Lava types.
+- 5 Alien slim types
+- 4 Water caustic (perfect for underwater scenes).
+- 1 Rain drops type.
+- 2 Turbulence types.
+- 4 Water types.
+
+Usually this kind of effect does not allow the display of large area. But with liquid effect, enjoy large areas of sea or lake for your games. The script provided can set the tilling of the surface and allows you to scroll the texture (2 directions) to create liquid anims. You can apply these effects to any object.
+
+The animations are made with 64 frames and are perfectly looped and seamless, and delivered in png 32 bits 2048*2048.
+
+easy and ready to use.
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
