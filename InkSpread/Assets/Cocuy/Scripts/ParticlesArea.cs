@@ -21,6 +21,7 @@ namespace Cocuy
 
         [HideInInspector]
         public float m_densityDissipation = 1f;
+
         public float Dissipation
         {
             get
