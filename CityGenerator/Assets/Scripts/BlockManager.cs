@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 public class BlockManager : MonoSingleton<BlockManager>
 {
+    public List<BuildingBlock> AllBuildingBlocks = new List<BuildingBlock>();
+
     private SortedDictionary<BlockType, SortedDictionary<BlockPart, List<GameObject>>> BlockDict = new SortedDictionary<BlockType, SortedDictionary<BlockPart, List<GameObject>>>();
 
     public const int BlockPartCount = 4;
 
     void Awake()
     {
-        BuildingBlock[] bbs = Resources.FindObjectsOfTypeAll<BuildingBlock>();
-
-        foreach (BuildingBlock bb in bbs)
+        foreach (BuildingBlock bb in AllBuildingBlocks)
         {
             if (!BlockDict.ContainsKey(bb.BlockType))
             {

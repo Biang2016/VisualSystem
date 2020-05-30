@@ -44,7 +44,7 @@ public class Ground : MonoBehaviour
                 else
                 {
                     Vector3 pos = new Vector3(i - GameManager.Instance.GroundSize / 2f, 0, j - GameManager.Instance.GroundSize / 2f);
-                    GameObject prefab = BlockManager.Instance.GetBlock(pos, BlockType.Block_1x1, BlockPart.Medium);
+                    GameObject prefab = BlockManager.Instance.GetBlock(pos, BlockType.Block_2x2, BlockPart.Medium);
                     if (prefab)
                     {
                         Quaternion rot = Quaternion.Euler(-89.9f, 90 * Random.Range(0, 4), 0);
